@@ -1,4 +1,5 @@
 public class PrimType {
+    
     public static void PrimType(String[] args) {
         
     // Decalring and initializing integer variables
