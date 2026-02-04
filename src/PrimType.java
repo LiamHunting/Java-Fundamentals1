@@ -1,6 +1,6 @@
 public class PrimType {
     
-    public static void PrimType(String[] args) {
+    public static void primType(String[] args) {
         
     // Decalring and initializing integer variables
         int myAge = 25;
