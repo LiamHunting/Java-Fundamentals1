@@ -1,5 +1,5 @@
 public class RefType {
-    public static void ReferenceType(String[] args) {
+    public static void RefType(String[] args) {
         
     }
 }
