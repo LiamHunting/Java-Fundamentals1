@@ -56,6 +56,7 @@ public class PrimType {
         int myCastedInt = (int) anotherDouble; // Explicit casting
         System.out.println(myCastedInt);
         
+        
     }
 
 }
