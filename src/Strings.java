@@ -1,9 +1,8 @@
 
-
-
 public class Strings {
+
     public static void striVar(String[] args) {
-        
+
         // Declaring and initializing string variables
         String greeting = "Hello";
         String name = "Alice";
@@ -29,7 +28,23 @@ public class Strings {
 
         String replacedMessage = message.replace("Alice", "Bob");
         System.out.println("Replaced message: " + replacedMessage);
+
+        // Escaping characters: using backslash to include special characters in strings
+        // For example, to include a double quote in a string, we can use the backslash to escape it  
+        String quote = "She said, \"Hello!\"";
+        System.out.println("Escape Characters: " + quote);
+
+        String singleQuote = "\"She\'s\" has quotes and an apostraphe.";
+        System.out.println(singleQuote);
+
+        //Escape characters "\n" and "\\"
+        String lineSlash = "This is line one.\nThis is line two with backslash: c:\\Windows..";
+        System.out.println(lineSlash);
         
+        //Escape character tab.
+        String escapeCharTab = "\tAm I tabbed over?";
+        System.out.println(escapeCharTab);
         
+
     }
 }

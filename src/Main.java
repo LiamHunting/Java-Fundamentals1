@@ -5,7 +5,8 @@ public class Main {
         RefType.refType(args);
         PrimVSRef.primVSRef(args);
         Strings.striVar(args);
-        
+        RefTypeArrays.ArrLists(args);
+
 
 
     }
