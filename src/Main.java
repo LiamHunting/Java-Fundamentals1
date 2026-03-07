@@ -6,7 +6,8 @@ public class Main {
         PrimVSRef.primVSRef(args);
         Strings.striVar(args);
         RefTypeArrays.ArrLists(args);
-
+        ConstantVarType.constVarType(args);
+        
 
 
     }
