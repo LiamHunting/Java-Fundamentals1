@@ -8,6 +8,7 @@ public class Main {
         RefTypeArrays.ArrLists(args);
         ConstantVarType.constVarType(args);
         BasicMath.basicMathOperators(args);
+        Casting.castingBasics(args);
         
 
 

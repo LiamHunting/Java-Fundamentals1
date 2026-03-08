@@ -54,6 +54,21 @@ public class BasicMath {
         System.out.println(a); //output: 6
 
         
+        //Order of operations
+        int result = 10 + 5 * 2; //multiplication is performed before addition
+        System.out.println(result); //output: 20
+
+        result = (10 + 5) * 2; //parentheses change the order of operations
+        System.out.println(result); //output: 30
+
+        //exponentiation is not a built-in operator in Java, but can be performed using the Math.pow() method
+        double powerResult = Math.pow(2, 3); //2 raised to the power of 3
+        System.out.println(powerResult); //output: 8.0
+
+        //Priority of operations: parentheses > exponentiation > multiplication/division/modulus > addition/subtraction
+        
+
+        
     }
 
 }
