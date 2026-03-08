@@ -7,6 +7,7 @@ public class Main {
         Strings.striVar(args);
         RefTypeArrays.ArrLists(args);
         ConstantVarType.constVarType(args);
+        BasicMath.basicMathOperators(args);
         
 
 

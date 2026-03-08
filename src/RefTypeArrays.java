@@ -10,7 +10,7 @@ public class RefTypeArrays{
         numbers[1] = 2;
         numbers[2] = 3;
 
-        //Printing rray numbers will print memory address of numbers array
+        //Printing an array will not print the values but instead will print the address in memory where the array is stored
         System.out.println(numbers);
 
         //Use Arrays method toString() to 
