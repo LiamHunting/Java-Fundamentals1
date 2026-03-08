@@ -10,6 +10,9 @@ public class Main {
         BasicMath.basicMathOperators(args);
         Casting.castingBasics(args);
         TheMathClass.theMathClass(args);
+        FormattingNumbers.formattingNumbers(args);
+        ReadingInput.readingInput(args);
+        
 
 
 
