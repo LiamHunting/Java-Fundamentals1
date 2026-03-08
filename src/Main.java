@@ -9,7 +9,8 @@ public class Main {
         ConstantVarType.constVarType(args);
         BasicMath.basicMathOperators(args);
         Casting.castingBasics(args);
-        
+        TheMathClass.theMathClass(args);
+
 
 
     }
